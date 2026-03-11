@@ -1,0 +1,105 @@
+.faq{
+  text-align: center;
+  background: #faf8f6;
+  padding: 4rem 2rem;
+
+
+  .cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    .card1 {
+      width: 35%;
+      height: 260px;
+      margin-top: 70px;
+
+      h2{
+         color: #380719;
+         background-color: rgba(155, 91, 91, 0.21);
+         border-radius: 5px;
+         font-size: 14px;
+         width: 20%;
+         text-align: center;
+         height: 30px;
+         padding-top: 10px;
+
+      }
+      h1 {
+        color: #380719;
+        
+      }
+      .jed{
+        color: #380719;
+        font-size: 22px;
+      }
+      .dwa{
+        margin-top: 40px;
+      }
+      }
+      em{
+        color: #a16962;
+      }
+
+      button {
+
+        border: none;
+      
+        border-radius: 4px;
+        cursor: pointer;
+        background-color: transparent;
+        color: white;
+        font-size: 20px;
+
+
+      }
+    }
+    .card2 {
+
+      border: 1px solid #ddd;
+      padding: 32px;
+      border-radius: 8px; 
+      width: 28%;
+      height: 400px;
+      margin-top: 70px;
+      background-image: url('/image/pattern-main-001.jpg');
+
+      h1 {
+        margin-bottom: 16px;
+        color: white;
+        font-size: 40px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: 150;
+      }
+      ul{
+        list-style-image: url('/image/checkmark-black-round-icon.png');
+        align-items: center;
+        
+      }
+      li{
+        font-size: 15px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: 150;
+        color: white;
+        margin-bottom: 34px;
+            line-height: 1;
+      }
+
+      button {
+
+        border: none;
+        padding: 0.6rem 1rem;
+        border-radius: 4px;
+        cursor: pointer;
+        background-color: transparent;
+        color: white;
+        font-size: 20px;
+        
+
+
+      }
+    }
+  }
+
